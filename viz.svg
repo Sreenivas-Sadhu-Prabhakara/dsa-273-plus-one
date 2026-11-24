@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="422" viewBox="0 0 760 422" role="img" aria-label="Step-by-step visual walkthrough">
+<defs><marker id="arr" markerWidth="8" markerHeight="8" refX="6" refY="3" orient="auto"><path d="M0,0 L7,3 L0,6 z" fill="context-stroke"/></marker></defs>
+<rect x="1.0" y="1.0" width="758.0" height="420.0" rx="10" fill="#ffffff" stroke="#e2e8f0" stroke-width="1.2"/>
+<text x="24.0" y="34.0" font-family="-apple-system,Segoe UI,Helvetica,Arial,sans-serif" font-size="17" fill="#1e293b" text-anchor="start" font-weight="600">Plus One — carry ripples from the right</text>
+<circle cx="35.0" cy="74.0" r="11" fill="#2563eb" stroke="#2563eb" stroke-width="1.4"/>
+<text x="35.0" y="78.5" font-family="-apple-system,Segoe UI,Helvetica,Arial,sans-serif" font-size="12" fill="#ffffff" text-anchor="middle" font-weight="600">1</text>
+<text x="56.0" y="79.0" font-family="-apple-system,Segoe UI,Helvetica,Arial,sans-serif" font-size="13.5" fill="#1e293b" text-anchor="start">Add 1 to a digit array. [1,2,3]: the last digit just increments — done, no carry.</text>
+<text x="84.0" y="131.0" font-family="-apple-system,Segoe UI,Helvetica,Arial,sans-serif" font-size="13" fill="#64748b" text-anchor="end">123 + 1</text>
+<rect x="94.0" y="106.0" width="44.0" height="38.0" rx="6" fill="#eef2f7" stroke="#94a3b8" stroke-width="1.2"/>
+<text x="116.0" y="130.0" font-family="ui-monospace,Menlo,monospace" font-size="14" fill="#1e293b" text-anchor="middle">1</text>
+<text x="116.0" y="102.0" font-family="-apple-system,Segoe UI,Helvetica,Arial,sans-serif" font-size="9" fill="#94a3b8" text-anchor="middle">0</text>
+<rect x="140.0" y="106.0" width="44.0" height="38.0" rx="6" fill="#eef2f7" stroke="#94a3b8" stroke-width="1.2"/>
+<text x="162.0" y="130.0" font-family="ui-monospace,Menlo,monospace" font-size="14" fill="#1e293b" text-anchor="middle">2</text>
+<text x="162.0" y="102.0" font-family="-apple-system,Segoe UI,Helvetica,Arial,sans-serif" font-size="9" fill="#94a3b8" text-anchor="middle">1</text>
+<rect x="186.0" y="106.0" width="44.0" height="38.0" rx="6" fill="#dcfce7" stroke="#16a34a" stroke-width="1.2"/>
+<text x="208.0" y="130.0" font-family="ui-monospace,Menlo,monospace" font-size="14" fill="#1e293b" text-anchor="middle">4</text>
+<text x="208.0" y="102.0" font-family="-apple-system,Segoe UI,Helvetica,Arial,sans-serif" font-size="9" fill="#94a3b8" text-anchor="middle">2</text>
+<line x1="24.0" y1="156.0" x2="736.0" y2="156.0" stroke="#e2e8f0" stroke-width="1"/>
+<circle cx="35.0" cy="176.0" r="11" fill="#2563eb" stroke="#2563eb" stroke-width="1.4"/>
+<text x="35.0" y="180.5" font-family="-apple-system,Segoe UI,Helvetica,Arial,sans-serif" font-size="12" fill="#ffffff" text-anchor="middle" font-weight="600">2</text>
+<text x="56.0" y="181.0" font-family="-apple-system,Segoe UI,Helvetica,Arial,sans-serif" font-size="13.5" fill="#1e293b" text-anchor="start">[1,2,9]: 9 becomes 0 and carries; the 2 absorbs it → [1,3,0]. The loop walks</text>
+<text x="56.0" y="200.0" font-family="-apple-system,Segoe UI,Helvetica,Arial,sans-serif" font-size="13.5" fill="#1e293b" text-anchor="start">right-to-left, stopping at the first non-9.</text>
+<text x="84.0" y="249.0" font-family="-apple-system,Segoe UI,Helvetica,Arial,sans-serif" font-size="13" fill="#64748b" text-anchor="end">129 + 1</text>
+<rect x="94.0" y="224.0" width="44.0" height="38.0" rx="6" fill="#eef2f7" stroke="#94a3b8" stroke-width="1.2"/>
+<text x="116.0" y="248.0" font-family="ui-monospace,Menlo,monospace" font-size="14" fill="#1e293b" text-anchor="middle">1</text>
+<text x="116.0" y="220.0" font-family="-apple-system,Segoe UI,Helvetica,Arial,sans-serif" font-size="9" fill="#94a3b8" text-anchor="middle">0</text>
+<rect x="140.0" y="224.0" width="44.0" height="38.0" rx="6" fill="#fef3c7" stroke="#d97706" stroke-width="1.2"/>
+<text x="162.0" y="248.0" font-family="ui-monospace,Menlo,monospace" font-size="14" fill="#1e293b" text-anchor="middle">3</text>
+<text x="162.0" y="220.0" font-family="-apple-system,Segoe UI,Helvetica,Arial,sans-serif" font-size="9" fill="#94a3b8" text-anchor="middle">1</text>
+<rect x="186.0" y="224.0" width="44.0" height="38.0" rx="6" fill="#fef3c7" stroke="#d97706" stroke-width="1.2"/>
+<text x="208.0" y="248.0" font-family="ui-monospace,Menlo,monospace" font-size="14" fill="#1e293b" text-anchor="middle">0</text>
+<text x="208.0" y="220.0" font-family="-apple-system,Segoe UI,Helvetica,Arial,sans-serif" font-size="9" fill="#94a3b8" text-anchor="middle">2</text>
+<line x1="24.0" y1="274.0" x2="736.0" y2="274.0" stroke="#e2e8f0" stroke-width="1"/>
+<circle cx="35.0" cy="294.0" r="11" fill="#2563eb" stroke="#2563eb" stroke-width="1.4"/>
+<text x="35.0" y="298.5" font-family="-apple-system,Segoe UI,Helvetica,Arial,sans-serif" font-size="12" fill="#ffffff" text-anchor="middle" font-weight="600">3</text>
+<text x="56.0" y="299.0" font-family="-apple-system,Segoe UI,Helvetica,Arial,sans-serif" font-size="13.5" fill="#1e293b" text-anchor="start">All nines ([9,9]) overflow every position — prepend a 1: [1,0,0]. That one growth</text>
+<text x="56.0" y="318.0" font-family="-apple-system,Segoe UI,Helvetica,Arial,sans-serif" font-size="13.5" fill="#1e293b" text-anchor="start">case is the whole problem; everything else exits early.</text>
+<text x="84.0" y="367.0" font-family="-apple-system,Segoe UI,Helvetica,Arial,sans-serif" font-size="13" fill="#64748b" text-anchor="end">99 + 1</text>
+<rect x="94.0" y="342.0" width="44.0" height="38.0" rx="6" fill="#dcfce7" stroke="#16a34a" stroke-width="1.2"/>
+<text x="116.0" y="366.0" font-family="ui-monospace,Menlo,monospace" font-size="14" fill="#1e293b" text-anchor="middle">1</text>
+<text x="116.0" y="338.0" font-family="-apple-system,Segoe UI,Helvetica,Arial,sans-serif" font-size="9" fill="#94a3b8" text-anchor="middle">0</text>
+<rect x="140.0" y="342.0" width="44.0" height="38.0" rx="6" fill="#eef2f7" stroke="#94a3b8" stroke-width="1.2"/>
+<text x="162.0" y="366.0" font-family="ui-monospace,Menlo,monospace" font-size="14" fill="#1e293b" text-anchor="middle">0</text>
+<text x="162.0" y="338.0" font-family="-apple-system,Segoe UI,Helvetica,Arial,sans-serif" font-size="9" fill="#94a3b8" text-anchor="middle">1</text>
+<rect x="186.0" y="342.0" width="44.0" height="38.0" rx="6" fill="#eef2f7" stroke="#94a3b8" stroke-width="1.2"/>
+<text x="208.0" y="366.0" font-family="ui-monospace,Menlo,monospace" font-size="14" fill="#1e293b" text-anchor="middle">0</text>
+<text x="208.0" y="338.0" font-family="-apple-system,Segoe UI,Helvetica,Arial,sans-serif" font-size="9" fill="#94a3b8" text-anchor="middle">2</text>
+<text x="380.0" y="404.0" font-family="-apple-system,Segoe UI,Helvetica,Arial,sans-serif" font-size="10" fill="#94a3b8" text-anchor="middle">github.com/Sreenivas-Sadhu-Prabhakara · dsa series</text>
+</svg>
